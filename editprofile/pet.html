@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Carterinha Pet</title>
+</head>
+<body>
+    <main>
+        <section class="navegation-for-edit">
+            <section class="title">
+                <h2>Voltar</h2>
+            </section>
+            <section>
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>Contas</h2>
+                        </li>
+                        <li><a href="/">Perfil</a></li>
+                        <li><a href="">Carteirinha Pet</a></li>
+                        <li><a href="">Favoritos</a></li>
+                        <li><a href="">Documentação</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h2>Configuração</h2>
+                        </li>
+                        <li><a href="">Histórico</a></li>
+                        <li><a href="">Configurações da Conta</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <section class="edit-section">
+            <section class="title">
+                <h1>Carterinha Pet</h1>
+                <p>Edite aqui dados e informações do seu pet.</p>
+            </section>
+            <section class="edit-photo">
+                <section class="title">
+                    <h4>Editar Foto de Perfil</h4>
+                </section>
+                <section class="image-perfil-controller">
+                    <img src="https://img.freepik.com/fotos-gratis/lindo-retrato-de-animal-de-estimacao-isolado_23-2149192357.jpg"
+                        alt="">
+                    <section class="button">
+                        <form action="/action" method="post" enctype="multipart/form-data">
+                            <section class="form-control">
+                                <input type="file" name="profile">
+                                <input type="submit" value="Mudar foto de perfil">
+                            </section>
+                        </form>
+                    </section>
+                </section>
+                <section class="span">
+                    <span>Tamanho máximo 256x256px. </span>
+                </section>
+            </section>
+            <section class="edit-user-infos">
+                <form action="" method="post">
+                    <section class="input-control">
+                        <label for="username">Nome:</label>
+                        <input type="text" name="username">
+                    <section class="input-control">
+                        <label for="sexo">Sexo</label>
+                        <select id="sexo">
+                            <label for="sexo">Sexo:</label>
+                            <option value="volvo">Macho</option>
+                            <option value="saab">Fêmea</option>
+                        </select>
+                    </section>
+                    <section class="input-control">
+                        <label for="data-de-nascimento">Data de Nascimento:</label>
+                        <input type="date" name="data-de-nascimento">
+                        </section>
+                    <section class="input-control">
+                    <label for="raca">Raça</label>
+                    <input type="text" name="raca">
+                    </section>
+                    <section class="input-control">
+                        <label for="pelagem">Pelagem:</label>
+                        <input type="text" name="pelagem">
+                    </section>
+
+                    <section class="input-control">
+                        <input type="submit" value="Editar">
+                    </section>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
