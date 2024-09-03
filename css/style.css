@@ -16,13 +16,15 @@ main {
     grid-template-rows: 1fr;
 }
 .navegation-for-edit {
-    padding: 30px;
+    border-right: 1px solid #000000;
+    height: 100vh;
 }
 .navegation-for-edit section {
     margin-top: 1rem;
+    padding: 30px;
 }
 .navegation-for-edit .title h2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 .navigation-itens {
     display: flex;
@@ -33,7 +35,7 @@ main {
 .navigation-itens ul li h2 {
     font-size: 20px;
     margin-bottom: 12px;
-    color: #0000ff;
+    color: #000000;
 }
 .navigation-itens ul li a {
     font-size: 14px;
@@ -42,6 +44,15 @@ main {
 }
 .edit-section .title h1 {
     font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.edit-section p {
+    margin-left: 2px;
+    margin-bottom: 2px;
 }
 .imagem-perfil-controller img {
     width: 200px;
@@ -69,4 +80,17 @@ main {
 }
 .input-control-name label {
     font-size: 15px;
+}
+.edit-pet-infos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+
+}
+.input-control {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 0.8%;
+    
 }
